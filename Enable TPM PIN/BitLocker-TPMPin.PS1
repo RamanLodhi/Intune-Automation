@@ -10,12 +10,12 @@
   Push this script from Intune to the users devcices or use a task scheduler
 
 .NOTES
-    Author:      Raman Lodhi
-    Created:     16-May-2024
+    Author:       Raman Lodhi
+    Created:      16-May-2024
     Last Updated: 18-May-2024
-    Version:     1.0
-    Email:       Ramanlodhiddun@gmail.com
-    Website:     ramanlodhi.com
+    Version:      1.0
+    Email:        Ramanlodhiddun@gmail.com
+    Website:      ramanlodhi.com
 #>
 
 
