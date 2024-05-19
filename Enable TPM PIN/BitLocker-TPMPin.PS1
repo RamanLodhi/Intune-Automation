@@ -31,5 +31,4 @@ Add-BitLockerKeyProtector -MountPoint "C:" -Pin $SecureString -TPMandPinProtecto
 
 Remove-Item -Path "$Env:PUBLIC\input.txt" -Force
 
-New-Item -Path New-Item -Path "HKLM:\Software\Microsoft\Windows" -Name TPMStartupPIN
-New-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\TPMStartupPIN" -Name Enabled -PropertyType string
+New-item -Name TPMPinsuccess.txt -Path C:\users\Public -type file -Force
