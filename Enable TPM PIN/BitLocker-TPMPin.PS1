@@ -7,7 +7,7 @@
     None
 
 .EXAMPLE
-  Push this script from Intune to the users devcices or use a task scheduler
+  Push this script from Intune to the users devices
 
 .NOTES
     Author:       Raman Lodhi
