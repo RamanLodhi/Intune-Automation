@@ -29,7 +29,7 @@ $SecureString = ConvertTo-SecureString $userInput -AsPlainText -Force
 
 Add-BitLockerKeyProtector -MountPoint "C:" -Pin $SecureString -TPMandPinProtector
 
-Remove-Item -Path "$Env:PUBLIC\input.txt"
+Remove-Item -Path "$Env:PUBLIC\input.txt" -Force
 
-
-
+New-Item -Path New-Item -Path "HKLM:\Software\Microsoft\Windows" -Name TPMStartupPIN
+New-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\TPMStartupPIN" -Name Enabled -PropertyType string
